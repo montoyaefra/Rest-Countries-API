@@ -1,0 +1,38 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fraunces', serif;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* talvez se utilize */
+:root{
+    --color-white1: #FAFAFA;
+} 
+
+[data-bs-theme=dark] .texto {
+    color: var(--color-white1);;
+  }
+  
+
+ .imagen {
+    aspect-ratio: 3/2;
+}
+
+.carta {
+    width: 300px;
+}
+
+
+p {
+    margin-top: -10px;
+}
+
+.imagen2{
+    max-width: 100%;
+  width: 680px;
+}
+
+.input {
+    outline: none;
+}
