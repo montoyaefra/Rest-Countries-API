@@ -1,7 +1,7 @@
 import data from "./data.js";
 import dom from "./dom.js";
 
-const URL = "https://restcountries.com/v3.1/all";
+const URL = "https://restcountries.com/v3.1/all?fields=name,flags,population,capital,region,subregion,currencies,languages,borders";
 
 let datos = [];
 
